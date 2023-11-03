@@ -1,77 +1,93 @@
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.scene {
-    perspective: 800px;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project {
-    width: 300px;
-    height: 200px;
+/* Adicione este CSS adicional para os quartos e a área comum */
+.room, .common-area {
+    position: absolute;
     transform-style: preserve-3d;
-    animation: rotate 20s infinite linear;
-    position: relative;
+    border-radius: 5px;
 }
 
-.building {
-    width: 100%;
-    height: 100%;
+.bed, .desk, .sofa, .table, .plants, .window {
+    position: absolute;
+    background: #d8d8d8;
+    border: 1px solid #aaa;
     transform-style: preserve-3d;
-    background: #f2f2f2;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border: 2px solid #888;
-    transition: transform 1s;
 }
 
 .room {
-    width: 80px;
-    height: 80px;
-    background: #d8d8d8;
-    border: 1px solid #aaa;
-    position: absolute;
+    width: 160px;
+    height: 200px;
+    background: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: translateZ(80px);
+}
+
+.room:nth-child(1) {
     top: 50px;
     left: 20px;
-    transform: translateZ(40px);
-    border-radius: 5px;
+    animation: roomAnimate 5s ease-in-out infinite alternate;
+}
+
+.room:nth-child(2) {
+    top: 50px;
+    right: 20px;
+    animation: roomAnimate 5s ease-in-out infinite alternate-reverse;
 }
 
 .common-area {
-    width: 100px;
+    width: 180px;
     height: 100px;
-    background: #d8d8d8;
-    border: 1px solid #aaa;
-    position: absolute;
-    top: 20px;
+    background: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: translateZ(50px);
+    top: 150px;
     left: 130px;
-    transform: translateZ(20px);
-    border-radius: 5px;
+    animation: commonAreaAnimate 3s ease-in-out infinite alternate;
 }
 
-.garden {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #99cc99;
-    transform: rotateX(90deg) translateZ(80px);
-    transform-origin: center bottom;
-    border: 1px solid #5a874c;
+.bed {
+    width: 120px;
+    height: 60px;
+    top: 120px;
+    left: 20px;
+    transform: translateZ(30px);
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotateY(0deg);
-    }
-    100% {
-        transform: rotateY(360deg);
-    }
+.desk {
+    width: 100px;
+    height: 30px;
+    top: 150px;
+    left: 60px;
+    transform: translateZ(15px);
+}
+
+.sofa {
+    width: 140px;
+    height: 60px;
+    top: 120px;
+    left: 20px;
+    transform: translateZ(30px);
+}
+
+.table {
+    width: 60px;
+    height: 60px;
+    top: 150px;
+    left: 100px;
+    transform: translateZ(15px);
+}
+
+.plants {
+    width: 40px;
+    height: 120px;
+    top: 100px;
+    left: 160px;
+    transform: translateZ(60px);
+}
+
+.window {
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    transform: translateZ(5px);
+    background: #6be5e5;
 }
