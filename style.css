@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to -145deg, #006d50, #009e5d); /* Modify this line */
+    background: linear-gradient(to right, #006d50, #009e5d); /* Modify this line */
     height: 100%;
    }
    
