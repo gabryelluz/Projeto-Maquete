@@ -22,6 +22,6 @@ body {
     left: 10px;
     transform: translateY(-50%);
     fill: none;
-    stroke: #999;
+    stroke: transparent;
     stroke-width: 2px;
 }
