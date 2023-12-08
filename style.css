@@ -1,5 +1,11 @@
 body {
-    background: linear-gradient(to bottom, #006d50, #009e5d); /* Modify this line */
+    background: linear-gradient(to right, #006d50, #009e5d); /* Modify this line */
+    width: 100%;
+    height: 100%; 
+}
+
+input {
+    color: white;
 }
 
 .search-bar {
@@ -11,7 +17,7 @@ body {
     padding: 10px 20px 10px 40px;
     width: 300px;
     height: 40px;
-    border: 1px solid #ddd;
+    border: 0.2vw solid #fff;
     border-radius: 20px;
     font-size: 16px;
 }
@@ -22,6 +28,6 @@ body {
     left: 10px;
     transform: translateY(-50%);
     fill: none;
-    stroke: transparent;
+    stroke: white;
     stroke-width: 2px;
 }
