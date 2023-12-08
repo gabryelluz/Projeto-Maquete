@@ -1,93 +1,31 @@
-/* Adicione este CSS adicional para os quartos e a área comum */
-.room, .common-area {
-    position: absolute;
-    transform-style: preserve-3d;
-    border-radius: 5px;
-}
-
-.bed, .desk, .sofa, .table, .plants, .window {
-    position: absolute;
-    background: #d8d8d8;
-    border: 1px solid #aaa;
-    transform-style: preserve-3d;
-}
-
-.room {
-    width: 160px;
-    height: 200px;
-    background: #f2f2f2;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    transform: translateZ(80px);
-}
-
-.room:nth-child(1) {
-    top: 50px;
-    left: 20px;
-    animation: roomAnimate 5s ease-in-out infinite alternate;
-}
-
-.room:nth-child(2) {
-    top: 50px;
-    right: 20px;
-    animation: roomAnimate 5s ease-in-out infinite alternate-reverse;
-}
-
-.common-area {
-    width: 180px;
-    height: 100px;
-    background: #f2f2f2;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    transform: translateZ(50px);
-    top: 150px;
-    left: 130px;
-    animation: commonAreaAnimate 3s ease-in-out infinite alternate;
-}
-
-.bed {
-    width: 120px;
-    height: 60px;
-    top: 120px;
-    left: 20px;
-    transform: translateZ(30px);
-}
-
-.desk {
-    width: 100px;
-    height: 30px;
-    top: 150px;
-    left: 60px;
-    transform: translateZ(15px);
-}
-
-.sofa {
-    width: 140px;
-    height: 60px;
-    top: 120px;
-    left: 20px;
-    transform: translateZ(30px);
-}
-
-.table {
-    width: 60px;
-    height: 60px;
-    top: 150px;
-    left: 100px;
-    transform: translateZ(15px);
-}
-
-.plants {
-    width: 40px;
-    height: 120px;
-    top: 100px;
-    left: 160px;
-    transform: translateZ(60px);
-}
-
-.window {
-    width: 60px;
-    height: 60px;
-    top: 20px;
-    left: 20px;
-    transform: translateZ(5px);
-    background: #6be5e5;
-}
+body {
+    font-family: Arial, sans-serif;
+   }
+   
+   .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+   }
+   
+   .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+   }
+   
+   .search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+   }
+   
+   .search-bar button:hover {
+    background-color: #0056b3;
+   }
