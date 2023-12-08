@@ -4,10 +4,6 @@ body {
     height: 100%; 
 }
 
-input {
-    color: white;
-}
-
 .search-bar {
     position: relative;
     display: inline-block;
