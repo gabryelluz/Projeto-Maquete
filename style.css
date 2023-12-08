@@ -4,6 +4,10 @@ body {
     height: 100%; 
 }
 
+input {
+    color: white;
+}
+
 .search-bar {
     position: relative;
     display: inline-block;
@@ -24,6 +28,6 @@ body {
     left: 10px;
     transform: translateY(-50%);
     fill: none;
-    stroke: white;
+    stroke: transparent;
     stroke-width: 2px;
 }
