@@ -1,0 +1,142 @@
+.desenvolvimento__1sec {
+    background: var(--gradiente-fundo);
+}
+
+#before__1sec {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 0 5%;
+}
+
+#after__1sec {
+    display: none;
+}
+
+#td__1sec {
+    padding: 3vw 0;
+    margin: 0 auto;
+}
+
+#text__1sec {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--cor-fundo);
+    text-align: center;
+}
+
+#title__1sec {
+    color: var(--cor-fundo);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 7vw 0 4vw;
+}
+
+#barra-de-pesquisa {
+    padding: 1vw 18vw;
+    border-radius: 15px;
+    border: 1px solid white;
+    display: flex;
+}
+
+#img__search__button {
+    background: none;
+    border: none;
+}
+
+#img__search {
+    width: 26px;
+}
+
+#input__search {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    text-align: center;
+    border: none;
+    width: 220px;
+}
+
+#input__search::placeholder {
+    color: var(--cor-fundo);
+}
+
+.text__1sec__cont {
+    color: var(--cor-fundo);
+    font-size: 26px;
+    text-align: center;
+    margin: 0.8em;
+}
+
+#img__1sec {
+    width: 26.46vw;
+}
+
+#img-text__2sec {
+    background: var(--cor-verde-claro);
+}
+
+.title__secs {
+    color: var(--cor-marrom-escuro);
+    font-size: 21px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#img-text__2sec {
+    display: flex;
+    padding: 3% 6%;
+    text-align: center;
+}
+
+.espec_img-text__2sec {
+    margin: auto;
+}
+
+.img__2sec {
+    width: 17.63vw;
+    min-width: 200px;
+}
+
+.img__5sec {
+    width: 17.63vw;
+    min-width: 200px;
+}
+
+.white-space {
+    height: 51px;
+}
+
+.img-text__secs {
+    display: flex;
+    align-items: center;
+    background: var(--cor-verde-claro);
+    padding: 2%;
+}
+
+.title__secs-2 {
+    font-size: 30px;
+    padding: 20px 10px 10px;
+    text-align: center;
+    color: var(--cor-marrom-escuro);
+    font-weight: bold;
+}
+
+.text__secs {
+    text-align: center;
+    padding: 0% 3% 3%;
+    font-size: 26px;
+}
+
+#img-text__5sec {
+    background: var(--cor-verde-claro);
+    display: flex;
+    padding: 1% 6%;
+    text-align: center;
+}
+
+.espec_img-text__5sec {
+    margin: auto;
+}

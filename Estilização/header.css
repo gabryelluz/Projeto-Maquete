@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-texto);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+.link__img {
+    gap: 10px;
+}
+
+.link__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.link__right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cpp {
+    display: flex;
+    align-items: center;
+    gap: 1.7em;
+}
+
+.linksmenu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 11px;
+}
+
+#sua__viagem {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    gap: 11px;
+}
+
+.text__letter {
+    text-transform: uppercase;
+}
+
+#bagagem {
+    gap: 7px;
+    font-size: 13px;
+}
+
+#Vector {
+    font-size: 13px;
+    gap: 10px;
+}

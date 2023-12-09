@@ -1,0 +1,36 @@
+#text__footer {
+    text-align: center;
+    font-size: clamp(13.75px, 1.62vw, 28.88px);
+    font-weight: bold;
+    background: var(--cor-verde-escuro);
+    color: var(--cor-fundo);
+    padding: .5% 4%;
+}
+
+#white-space2 {
+    height: 31px;
+}
+
+@media screen and (max-width: 767px) {
+    #before__1sec {
+        display: none;
+    }
+
+    #after__1sec {
+        display: block;
+    }
+
+    #td__1sec {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title__secs {
+        font-size: 15.75px;
+    }
+
+    #img-text__2sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
